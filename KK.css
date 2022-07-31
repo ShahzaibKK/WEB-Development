@@ -1,5 +1,45 @@
  .H {
     color: rebeccapurple;
+    font-family: 'Square Peg', cursive;
+    background-color: darkgrey;
+    font-size: 55px;
+    border: 3px solid gold;
+    border-radius: 10px;
+    /* width: 300px; */
     text-align: center;
+    
+}
+span.H {
+font-weight: bolder;
+font-style: italic;
+color: rgb(62, 231, 214);
+border-top: 5px solid rgb(212, 29, 200);
+border-bottom: 5px solid rgb(30, 200, 67);
+border-right: 5px solid rgb(32, 104, 132);
+border-left: 5px solid rgb(18, 164, 74);
+border-top-left-radius: 10px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+
+}
+#BRO{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-image: url("https://lh3.googleusercontent.com/a-/AFdZuco9e1pocRYWLyMVZCV832DwqdV1btwShWHIyL9M=w54-h54-p-rp-mo-br100");
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+#BIRO{
+    width: 500px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    padding: 35px 90px;
+    margin: 28px 35px;
+    color:cadetblue;
     
 }
