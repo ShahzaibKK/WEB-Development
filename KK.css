@@ -1,49 +1,191 @@
  .H {
-    color: rebeccapurple;
-    font-family: 'Square Peg', cursive;
-    background-color: darkgrey;
-    font-size: 55px;
-    border: 3px solid gold;
-    border-radius: 10px;
-    /* width: 300px; */
-    text-align: center;
-    
-}
-span.H {
-font-weight: bolder;
-font-style: italic;
-color: rgb(62, 231, 214);
-border-top: 5px solid rgb(212, 29, 200);
-border-bottom: 5px solid rgb(30, 200, 67);
-border-right: 5px solid rgb(32, 104, 132);
-border-left: 5px solid rgb(18, 164, 74);
-border-top-left-radius: 10px;
-border-top-right-radius: 5px;
-border-bottom-left-radius: 30px;
-border-bottom-right-radius: 30px;
+     color: rebeccapurple;
+     font-family: 'Square Peg', cursive;
+     background-color: darkgrey;
+     font-size: 55px;
+     border: 3px solid gold;
+     border-radius: 10px;
+     /* width: 300px; */
+     text-align: center;
 
-}
-#BRO{
-    height: 200px;
-    width: 200px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    background-image: url("https://lh3.googleusercontent.com/a-/AFdZuco9e1pocRYWLyMVZCV832DwqdV1btwShWHIyL9M=w54-h54-p-rp-mo-br100");
-    background-repeat: no-repeat;
-    background-position: center center;
+ }
+
+ span.H {
+     font-weight: bolder;
+     font-style: italic;
+     color: rgb(62, 231, 214);
+     border-top: 5px solid rgb(212, 29, 200);
+     border-bottom: 5px solid rgb(30, 200, 67);
+     border-right: 5px solid rgb(32, 104, 132);
+     border-left: 5px solid rgb(18, 164, 74);
+     border-top-left-radius: 10px;
+     border-top-right-radius: 5px;
+     border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 30px;
+
+ }
+
+ #BRO {
+     height: 200px;
+     width: 200px;
+     border: 2px solid blue;
+     border-radius: 5px;
+     background-image: url("https://lh3.googleusercontent.com/a-/AFdZuco9e1pocRYWLyMVZCV832DwqdV1btwShWHIyL9M=w54-h54-p-rp-mo-br100");
+     background-repeat: no-repeat;
+     background-position: center center;
+
+ }
+
+ #BIRO {
+     width: 500px;
+     border: 2px solid blue;
+     border-radius: 5px;
+     background-color: blanchedalmond;
+     padding: 35px 90px;
+     margin: 28px 35px;
+     color: cadetblue;
+
+ }
+
+ body {
+     font-family: 'Square Peg', cursive;
+     font-family: 'Titillium Web', sans-serif;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ .container {
+     width: 900px;
+     border: 3px solid purple;
+     background-color: rgb(250, 226, 205);
+     margin: 33px auto;
+ }
+
+ .item {
+     border: 3px solid grey;
+     margin: 12px 3px;
+     padding: 12px 3px;
+     background: rgb(248, 238, 238);
+ }
+
+ #fruit {
+     float: left;
+     width: 48%;
+ }
+
+ #Vegitable {
+
+     float: right;
+     width: 48%;
+ }
+
+ #colddrink {
+     clear: both;
+     width: auto
+ }
+
+ p,
+ h3 {
+     text-align: justify;
+ }
+
+ h1 {
+     margin: auto 280px;
+ }
+
+ .btn {
+     border: none;
+     border-radius: 4px;
+     background-color: rgb(219, 152, 52);
+     font-size: 15px;
+     margin: 15px auto;
+     text-decoration: none;
+ }
+
+ .btn:hover {
+     background-color: aqua;
+     cursor: pointer;
+ }
+
+ .btn:active {
+     background-color: chartreuse;
+     font-size: larger;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .btn:visited {
+
+     font-weight: bold;
+ }
+
+ .navigation li a {
+     padding: 3px 3px;
+     text-decoration: none;
+     color: white;
+ }
+
+ .navigation li {
+     list-style: none;
+     float: left;
+     margin: 13px 20px;
+
+ }
+
+ .navigation {
+     border: 4px solid rebeccapurple;
+     border-radius: 25px;
+     background-color: black;
+ }
+
+ .navigation ul {
+     overflow: auto;
+ }
+ .search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+ }
+ .navigation li a:hover{
+    color: aquamarine;
+ }
+ .navigation input{
+    border: 2px solid yellowgreen;
+    padding: 25x 75px;
+    border-radius: 14px;
+ }
+ .top{
+    border: 4px solid black;
+            margin: auto;
+    width: 1200px;
+    border-radius: 14px;
+    margin: auto;
+            width: 1200px;
     
-}
-#BIRO{
-    width: 500px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    background-color: blanchedalmond;
-    padding: 35px 90px;
-    margin: 28px 35px;
-    color:cadetblue;
-    
-}
-body{
-    font-family: 'Square Peg', cursive;
-font-family: 'Titillium Web', sans-serif;
-}
+ }
+ .container2{
+    margin: auto;
+            width: 1200px;
+ }
+ img {
+    display: block;
+    margin: auto;
+    width: 55px;
+ }
+ #oyeH3 {
+    text-align: center;
+    margin: 0%;
+ }
+ .box{
+    border: 4px solid black;
+            background-color: grey;
+            margin: 4px 2px;
+            padding: 23px;
+            width: 33%;
+            box-sizing: border-box;
+            display: inline-block;
+            float: left;
+
+
+ }
